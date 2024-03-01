@@ -63,9 +63,29 @@ namespace StudentApplicationRegistration.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _13ec8dcf4b66dbdbc4fef558d41d5913 {
+            get {
+                object obj = ResourceManager.GetObject("13ec8dcf4b66dbdbc4fef558d41d5913", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap abstract_background_6m6cjbifu3zpfv84 {
             get {
                 object obj = ResourceManager.GetObject("abstract-background-6m6cjbifu3zpfv84", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap video_bg {
+            get {
+                object obj = ResourceManager.GetObject("video-bg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

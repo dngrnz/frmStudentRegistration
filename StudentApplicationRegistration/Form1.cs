@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,20 +40,62 @@ namespace StudentApplicationRegistration
 
                 comboBox1.Items.Add(i);
             }
-            for (int i = 1; i <= 12; i++)
+            ArrayList months_of_the_year = new ArrayList();
+            months_of_the_year.Add("January");
+            months_of_the_year.Add("February");
+            months_of_the_year.Add("March");
+            months_of_the_year.Add("April");
+            months_of_the_year.Add("May");
+            months_of_the_year.Add("June");
+            months_of_the_year.Add("July");
+            months_of_the_year.Add("August");
+            months_of_the_year.Add("September");
+            months_of_the_year.Add("October");
+            months_of_the_year.Add("November");
+            months_of_the_year.Add("December");
+            
+            for (int i = 0; i < 12; i++)
             {
-                comboBox2.Items.Add(i);
+                comboBox2.Items.Add(months_of_the_year[i]);
             }
-            int currentYear = DateTime.Now.Year;
-            for (int i = 1900; i <= currentYear; i++)
+             int currentYear = DateTime.Now.Year;
+             for (int i = 1900; i <= currentYear; i++)
             {
                 comboBox3.Items.Add(i);
             }
+            ArrayList BS_Programs = new ArrayList();
+            BS_Programs.Add("Bachelor of Science in Computer Science");
+            BS_Programs.Add("Bachelor of Science in Information Technology");
+            BS_Programs.Add("Bachelor of Science in Information Systems");
+            BS_Programs.Add("Bachelor of Science in Computer Engineering");
+            foreach (String programs in BS_Programs)
+            {
+                comboBox4.Items.Add(programs);
+            }
             
+            }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string gender;
+            string LastName = textBox1.Text;
+            string FirstName = textBox2.Text;
+            string MiddleName = textBox3.Text;
+            if (radioButton1.Checked == true) {
+                gender = "Male";
+            }
+            else
+            {
+                gender = "Female";
+            }
+            string message = "Student Name: " +  LastName +  FirstName +  MiddleName + "\n Gender" + gender + 
+                "\nDate of Birth: " + comboBox1.Text + comboBox2.Text + comboBox3.Text + "\nProgram: " + comboBox4.Text;
+            MessageBox.Show(message);
         }
+    }
     }
 
 
-        }
+        
 
 

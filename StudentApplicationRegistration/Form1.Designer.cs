@@ -43,13 +43,15 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(55, 72);
+            this.textBox1.Location = new System.Drawing.Point(55, 57);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(264, 26);
             this.textBox1.TabIndex = 0;
@@ -59,7 +61,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(51, 47);
+            this.label1.Location = new System.Drawing.Point(51, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 20);
             this.label1.TabIndex = 1;
@@ -80,7 +82,7 @@
             // 
             this.textBox2.BackColor = System.Drawing.Color.White;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(55, 131);
+            this.textBox2.Location = new System.Drawing.Point(55, 116);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(264, 26);
             this.textBox2.TabIndex = 3;
@@ -90,7 +92,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(51, 105);
+            this.label3.Location = new System.Drawing.Point(51, 90);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 20);
             this.label3.TabIndex = 4;
@@ -100,7 +102,7 @@
             // 
             this.textBox3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(55, 192);
+            this.textBox3.Location = new System.Drawing.Point(55, 177);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(264, 26);
             this.textBox3.TabIndex = 5;
@@ -110,7 +112,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(51, 166);
+            this.label4.Location = new System.Drawing.Point(51, 151);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(119, 20);
             this.label4.TabIndex = 6;
@@ -121,7 +123,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(51, 239);
+            this.label5.Location = new System.Drawing.Point(51, 209);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(76, 20);
             this.label5.TabIndex = 7;
@@ -132,7 +134,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.BackColor = System.Drawing.Color.Transparent;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(133, 237);
+            this.radioButton1.Location = new System.Drawing.Point(133, 207);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(61, 24);
             this.radioButton1.TabIndex = 8;
@@ -145,7 +147,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.BackColor = System.Drawing.Color.Transparent;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(200, 237);
+            this.radioButton2.Location = new System.Drawing.Point(200, 207);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(80, 24);
             this.radioButton2.TabIndex = 9;
@@ -158,7 +160,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(8, 271);
+            this.label6.Location = new System.Drawing.Point(8, 241);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(119, 20);
             this.label6.TabIndex = 10;
@@ -169,7 +171,7 @@
             this.comboBox1.BackColor = System.Drawing.SystemColors.Info;
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(2, 294);
+            this.comboBox1.Location = new System.Drawing.Point(2, 264);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 28);
             this.comboBox1.TabIndex = 11;
@@ -181,7 +183,7 @@
             this.comboBox2.BackColor = System.Drawing.SystemColors.Info;
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(126, 294);
+            this.comboBox2.Location = new System.Drawing.Point(126, 264);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 28);
             this.comboBox2.TabIndex = 12;
@@ -193,7 +195,7 @@
             this.comboBox3.BackColor = System.Drawing.SystemColors.Info;
             this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(253, 294);
+            this.comboBox3.Location = new System.Drawing.Point(253, 264);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 28);
             this.comboBox3.TabIndex = 13;
@@ -206,20 +208,44 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(94, 337);
+            this.button1.Location = new System.Drawing.Point(102, 357);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(178, 38);
             this.button1.TabIndex = 14;
             this.button1.Text = "Register Student";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(8, 295);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(153, 20);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Program to Apply*";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(12, 323);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(355, 28);
+            this.comboBox4.TabIndex = 16;
+            this.comboBox4.Text = "-Select Program-";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.BackgroundImage = global::StudentApplicationRegistration.Properties.Resources.abstract_background_6m6cjbifu3zpfv84;
+            this.BackgroundImage = global::StudentApplicationRegistration.Properties.Resources._13ec8dcf4b66dbdbc4fef558d41d5913;
             this.ClientSize = new System.Drawing.Size(379, 407);
+            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
@@ -262,6 +288,8 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox comboBox4;
     }
 }
 
